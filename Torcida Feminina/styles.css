@@ -1,0 +1,448 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+header {
+    height: 200px;
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    height: 35px;
+    background: rgb(253, 153, 153);
+    position: absolute;
+    bottom: 0;
+}
+.menu_principal > ul > li {
+    display: inline-block;
+    padding: 5px 115px;
+    list-style-type: none;
+    font-size: 22px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.menu_principal > ul {
+    margin-left: 15%;
+}
+
+.menu_principal > ul > li:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.205);
+    transition: 0.5s;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+}
+
+body {
+    background: linear-gradient(180deg, rgb(232, 77, 152), rgb(248, 148, 196),rgb(255, 253, 254));
+}
+
+figure > img {
+    position: absolute;
+    width: 180px;
+    top: 10px;
+    left: 5px;
+}
+
+.nome_torcida {
+    font-size: 80px;
+    position: absolute;
+    text-align: center;
+    color: rgb(198, 134, 134);
+    top: 30px;
+    left: 30%;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.position {
+    position: relative;
+    top: 1000px;
+}
+
+.classificacao {
+    position: absolute;
+    padding: 60% 50% 0 5%;
+    margin: 0 40px;
+    top: -400px;
+}
+
+.jogos {
+    position: absolute;
+    top: 620px;
+    left: 500px;
+}
+
+.position2 {
+    position: relative;
+    
+}
+
+.historia {
+    position: relative;
+}
+
+
+
+.jogos img {
+    position: absolute;
+    
+}
+
+.jogos h1 {
+    margin: 50px 0;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.classificacao h1 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+
+.texto > p {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    font-size: 24px;
+    left: px;
+    top: 620px;
+}
+
+.historia {
+    position: relative;
+}
+
+.imagem_elenco {
+    position: absolute;
+    left: 220px;
+    top: 20px;
+    
+}
+
+.elenco {
+    position: relative;
+    width: 90%;
+    height: 700px;
+    background: rgba(255, 255, 255, 0.63);
+    top: 880px;
+    border: 5px solid black;
+    border-radius: 20%;
+    margin-left: 100px;
+    text-shadow: 2px 2px rgb(253, 153, 153);
+}
+
+.jogadoras {
+    position: relative;
+}
+
+.jogadoras img {
+    position: absolute;
+    top: 100px;
+    left: 600px;
+}
+
+.elenco::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url(Time\ 1200x600.jpeg) no-repeat ;
+    background-size: cover;
+    opacity: 0.3;
+    border-radius: 20%;
+}
+
+.elenco > .jogadoras {
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.goleiras {
+    margin: 35px 0;
+}
+
+.defensoras {
+    margin: 100px 0;
+    position: absolute;
+    margin-left: 70%;
+    top: -20px;
+}
+
+.meio-campistas {
+    margin: 100px 0;
+    position: absolute;
+    top: 200px;
+}
+
+.atacantes {
+    margin: 100px 0;
+    position: absolute;
+    top: 330px;
+    left: 70%;
+}
+
+.goleiras li {
+    display: block;
+}
+
+.defensoras li {
+    display: block;
+}
+
+.meio-campistas li {
+    display: block;
+}
+
+.atacantes li {
+    display: block;
+}
+
+.titulo {
+    margin-left: 42%;
+    font-size: 40px;
+}
+
+.classificacao h1 {
+    margin: 50px 0;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px rgb(253, 153, 153);
+}
+
+.jogos p {
+    margin-left: 20px;
+    margin-top: 250px;
+}
+
+.jogos h1 {
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px rgb(253, 153, 153);
+}
+
+.classificacao p {
+    margin-top: 10px;
+}
+
+.classificacao a {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px rgb(253, 153, 153);
+    
+}
+
+.jogos a {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px rgb(253, 153, 153);
+}
+
+.produtos {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    margin-top: 87%;
+}
+
+.socia_ouro {
+    width: 25%;
+    height: 600px;
+    position: absolute;
+    background: rgba(214, 149, 7, 0.696);
+    border: 1px solid black;
+    top: 70px;
+    left: 20px;
+    border-radius: 20%;
+}
+
+.socia_ouro > button {
+    position: absolute;
+    left: 140px;
+    bottom: 10px;
+    width: 100px;
+    height: 40px;
+    background: rgb(0, 0, 0);
+    color: rgb(214, 148, 7);
+    font-size: 20px;
+}
+
+.socia_prata {
+    width: 25%;
+    height: 600px;
+    position: absolute;
+    background: rgb(168, 159, 159);
+    border: 1px solid black;
+    top: 70px;
+    left: 37%;
+    border-radius: 20%;
+}
+
+.socia_prata > button {
+    position: absolute;
+    left: 140px;
+    bottom: 10px;
+    width: 100px;
+    height: 40px;
+    background: rgb(0, 0, 0);
+    color: rgb(168, 159, 159);
+    font-size: 20px;
+}
+
+.socia_bronze {
+    width: 25%;
+    height: 600px;
+    position: absolute;
+    background: rgba(172, 88, 10, 0.598);
+    border: 1px solid black;
+    top: 70px;
+    right: 20px;
+    border-radius: 20%;
+}
+
+.socia_bronze > button {
+    position: absolute;
+    left: 150px;
+    bottom: 10px;
+    width: 100px;
+    height: 40px;
+    background: rgb(0, 0, 0);
+    color: rgb(172, 88, 10);
+    font-size: 20px;
+}
+
+.socia_ouro h1 {
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    font-size: 25px;
+}
+
+.socia_ouro > ul > li {
+    margin-top: 70px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.socia_prata h1 {
+    position: absolute;
+    left: 110px;
+    top: 20px;
+    font-size: 25px;
+}
+
+.socia_prata > ul > li {
+    margin-top: 70px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.socia_bronze h1 {
+    position: absolute;
+    left: 110px;
+    top: 20px;
+    font-size: 25px;
+}
+
+.socia_bronze > ul > li {
+    margin-top: 70px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.socia_ouro p {
+    position: absolute;
+    font-size: 50px;
+    bottom: 60px;
+    left: 80px;
+}
+
+.socia_prata p {
+    position: absolute;
+    font-size: 50px;
+    bottom: 60px;
+    left: 90px;
+}
+
+.socia_bronze p {
+    position: absolute;
+    font-size: 50px;
+    bottom: 60px;
+    left: 90px;
+}
+
+.produtos > h1 {
+    position: absolute;
+    left: 570px;
+    top: 10px;
+    font-size: 30px;
+    text-shadow: 2px 2px rgb(253, 153, 153);
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: rgba(214, 121, 212, 0.809);
+}
+
+footer > ul > li {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+footer > ul > li > a {
+    color: black;
+}
+
+footer > ul {
+    position: absolute;
+    left: 44%;
+}
+
+footer > p {
+    position: absolute;
+    left: 40%;
+    bottom: 0;
+}
+
+.redes_sociais > img {
+    width: 40px;
+    margin-left: 20px;
+}
+
+.redes_sociais {
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}
+
+aside > p {
+    position: absolute;
+    right: 130px;
+    bottom: 60px;
+    font-size: 22px;
+}
+
+aside > img {
+    position: absolute;
+    width: 260px;
+    left: 20px;
+    bottom: 0;
+}

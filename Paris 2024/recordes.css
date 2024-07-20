@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    color: rgb(87, 81, 81);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    width: 99vw;
+    height: 15rem;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+header > .img1 > img {
+    width: 30rem;
+    top: -4rem;
+    left: -3rem;
+    position: absolute;
+}
+
+header > .img2 > a > img {
+    width: 7.5rem;
+    top: 0.5rem;
+    left: 25rem;
+    position: absolute;
+}
+/* Inicio do Menu de navegação */
+nav {
+    width: 99vw;
+    height: 4rem;
+    background: #28036a;
+    margin-top: 10rem;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+nav > ul > li > a:hover {
+    background: #EF4135;
+    cursor: pointer;
+    transition: 0.5s;
+    border-bottom: 0.3rem solid white;
+}
+
+nav > ul > li > a {
+    font-size: 1.7rem;
+    color: white;
+    list-style-type: none;
+}
+/* Fim do Menu de navegação */
+/* Inicio do Main */
+main {
+    height: 280rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Inicio do Article */
+article {
+    width: 75vw;
+    height: 110rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+article > h1 {
+    font-size: 5rem;
+    margin-top: 3rem;
+    position: absolute;
+    left: 5rem;
+    top: 1rem;
+}
+
+article > figure > img {
+    margin-top: 15rem;
+    margin-bottom: 2rem;
+}
+
+article > p {
+    font-size: 2rem;
+    text-align: justify;
+    margin: 0 5rem;
+    padding: 1.5rem 0;
+}
+/* Fim do Article */
+/* Inicio Section Medalhas */
+.medalhas {
+    width: 75vw;
+    height: 100rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 15rem;
+}
+
+.medalhas > h1 {
+    font-size: 5rem;
+    position: absolute;
+    left: 5rem;
+    top: -5rem;
+}
+
+.medalhas > h2 {
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+.medalhas > h3 {
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+.medalhas > figure > img {
+    margin-top: 2rem;
+}
+
+.medalhas > p {
+    font-size: 2rem;
+    text-align: justify;
+    margin: 0 5rem;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+}
+/* Fim do Main */
+/* Inicio do Footer */
+footer {
+    width: 99vw;
+    height: 20rem;
+    background: #EF4135;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+footer > ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 2rem;
+}
+
+footer > ul > li > a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+footer > ul > li > a:hover {
+    border-bottom: 0.2rem solid white;
+}
+
+footer > ul > li {
+    margin: 2rem;
+}
+
+footer > p {
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+/* Fim do Footer */

@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    color: rgb(87, 81, 81);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: auto;
+    height: 15rem;
+    background: white;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+}
+header > .img1 > img {
+    width: 30rem;
+    position: absolute;
+    top: -4rem;
+    left: -3rem;
+}
+
+header > .img2 > img {
+    width: 8rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 25rem;
+}
+/* Inicio do Menu de navegação */
+nav {
+    width: auto;
+    height: 4rem;
+    background: #28036a;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+nav > ul > li > a:hover {
+    background: #EF4135;
+    cursor: pointer;
+    transition: 0.5s;
+    border-bottom: 0.3rem solid white;
+}
+
+nav > ul > li > a {
+    font-size: 1.7rem;
+    color: white;
+    list-style-type: none;
+}
+/* Fim do Menu de navegação */
+
+/* Inicio do main */
+main {
+    width: 95vw;
+    padding: 0 5rem 0 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Inicio do article */
+article {
+    width: 75vw;
+    height: 50rem;
+    display: flex;
+}
+
+figure > img {
+    width: 70rem;
+}
+
+.img_article > figure > img {
+    margin-left: 10rem;
+    margin-top: 4rem;
+}
+
+
+.texto_article > div > h1 {
+    font-size: 4rem;
+    margin-left: 10rem;
+    margin-top: 4rem;
+    margin-right: 10rem;
+    text-align: justify;
+}
+
+.texto_article > div > p {
+    font-size: 2rem;
+    margin-left: 10rem;
+    padding-top: 2rem;
+    text-align: justify;
+    margin-right: 10rem;
+}
+.texto_article > div > p > a {
+    font-size: 2rem;
+}
+/* Fim do article */
+
+/* Inicio Section Atletas */
+.atletas {
+    width: 75vw;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    position: relative;
+    margin-top: 5rem;
+}
+
+.atletas > h1 {
+    position: absolute;
+    top: 0;
+    font-size: 4rem;
+    left: 8rem;
+    margin-top: -2rem;
+}
+
+.noticia_1 > figure > img {
+    width: 20rem;
+    margin-left: 8.5rem;
+}
+
+.noticia_1 {
+    width: 50vw;
+    height: 40rem;
+    display: flex;
+    gap: 3rem;
+    margin-top: 15rem;
+}
+
+.txt_atletas > h1 > a {
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.txt_atletas > h1 > a:hover {
+    border-bottom: 0.2rem solid rgb(87, 81, 81);
+}
+
+.txt_atletas > p {
+    font-size: 2rem;
+    text-align: justify;
+    margin-top: 2rem;
+    padding-right: 4rem;
+}
+
+.txt_atletas {
+    display: flex;
+    flex-direction: column;
+}
+
+.noticia_2 {
+    width: 50vw;
+    height: 40rem;
+    display: flex;
+    gap: 3rem;
+    margin-top: 15rem;
+}
+
+.noticia_2 > figure > img {
+    width: 20rem;
+}
+
+.parag_atletas > h1 > a {
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.parag_atletas > h1 > a:hover {
+    border-bottom: 0.2rem solid rgb(87, 81, 81);
+}
+
+.parag_atletas > p {
+    font-size: 2rem;
+    text-align: justify;
+    margin-top: 2rem;
+    padding-right: 8rem;
+}
+
+/* Fim da Section Atletas */
+/* Inicio da Section Jogos */
+.jogos {
+    width: 75vw;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    position: relative;
+    margin-top: 5rem;
+    padding: 0 5rem 0 5rem;
+}
+
+.jogos > h1 {
+    position: absolute;
+    top: -7rem;
+    font-size: 4rem;
+    left: 8rem;
+}
+
+.tabela_medalhas {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabela_medalhas > figure > img {
+    width: 50rem;
+    margin-left: 3rem;
+    border: 0.2rem solid rgb(87, 81, 81);
+}
+
+.tabela_medalhas > h1 {
+    font-size: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+.tabela_medalhas > p > a {
+    font-size: 2rem;
+    margin-left: 3rem;
+    text-decoration: none;
+}
+
+.tabela_medalhas > p > a:hover {
+    border-bottom: 0.2rem solid rgb(87, 81, 81);
+}
+
+.calendario {
+    display: flex;
+    gap: 3rem;
+}
+
+.calendario > figure > img {
+    width: 40rem;
+}
+
+.txt_calendario {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.txt_calendario > h1 > a {
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.txt_calendario > h1 > a:hover {
+    border-bottom: 0.2rem solid rgb(87, 81, 81);
+}
+
+.txt_calendario > p {
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.txt_calendario > p > a {
+    font-size: 1.5rem;
+}
+/* Fim da Section Jogos */
+/* Inicio da Section Paris */
+.paris {
+    width: 75vw;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    position: relative;
+    margin-top: 3.5rem;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.paris > h1 {
+    position: absolute;
+    top: -7rem;
+    font-size: 4rem;
+    left: 8rem;
+}
+
+.paris > figure > a > img {
+    width: 70rem;
+    margin-left: 8rem;
+}
+
+.txt_paris {
+    width: 40vw;
+    height: 41rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.txt_paris > h1 > a {
+    font-size: 5rem;
+    text-decoration: none;
+}
+
+.txt_paris > h1 > a:hover {
+    border-bottom: 0.2rem solid rgb(87, 81, 81);
+}
+
+.txt_paris > p {
+    font-size: 2rem;
+    text-align: justify;
+    padding-right: 11.5rem;
+}
+/* Fim da Section Paris */
+/* Inicio da Section Mapa */
+.mapa {
+    width: 80vw;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapa > iframe {
+    width: 80rem;
+}
+/* Fim da Section Mapa */
+/* Fim do main */
+
+/* Inicio do Footer */
+footer {
+    width: auto;
+    height: 20rem;
+    background: #EF4135;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+footer > ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 2rem;
+}
+
+footer > ul > li > a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+footer > ul > li > a:hover {
+    border-bottom: 0.2rem solid white;
+}
+
+footer > ul > li {
+    margin: 2rem;
+}
+
+footer > p {
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+/* Fim do Footer */

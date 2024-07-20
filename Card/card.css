@@ -1,0 +1,542 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+/* https://www.yugioh-card.com/lat-am/pt/ */
+body {
+    background: url(dd6el0h-967ae16c-a605-4aee-b505-e3f59e9f61db.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+main {
+    width: 100vw;
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+    position: relative;
+}
+
+nav {
+    width: 20rem;
+    height: 65rem;
+    border: 0.5rem inset grey;
+    background: rgba(255, 255, 255, 0.514);
+    position: absolute;
+    position: fixed;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav > h1 {
+    font-size: 2.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav > ul {
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 9rem;
+}
+
+nav > figure > img {
+    width: 19rem;
+    height: 19rem;
+}
+nav > ul > li {
+    list-style-type: none;
+}
+nav > ul > li:hover{
+    background: rgba(0, 0, 0, 0.452);
+    border-bottom: 0.2rem solid black;
+    cursor: pointer;
+}
+
+.promocao {
+    width: 50vw;
+    height: 20rem;
+    background-color: rgba(0, 0, 0, 0.726);
+    border-radius: 2rem;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #daa520;
+    overflow: hidden;
+}
+.promocao > h1 {
+    font-size: 5rem;
+}
+
+.promocao > p {
+    font-size: 3rem;
+    text-align: justify;
+    padding: 1rem;
+}
+.cards {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 8rem;
+}
+
+.obelisco {
+    width: 30rem;
+    height: 40rem;
+    background: rgb(35, 154, 233);
+    position: relative;
+    overflow: hidden;
+    font-size: 1.5rem;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.obelisco > figure > img {
+    width: 20rem;
+    margin-top: 2.9rem;
+    border: 1rem solid grey;
+}
+
+.tituloob {
+    width: 80%;
+    height: 3rem;
+    border: 0.5rem solid rgba(128, 128, 128, 0.699);
+    font-size: 2.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    box-shadow: 0.3rem 0.3rem rgba(128, 128, 128, 0.438);
+    color: #daa520;
+}
+.bolinha {
+    display: flex;
+    position: absolute;
+    top: 5.2rem;
+    right: 5rem;
+}
+.obelisco > .bolinha > div {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50rem;
+    background: grey;
+}
+
+.obelisco > .bolinha > div > img {
+    width: 2rem;
+}
+
+.textoob {
+    width: 80%;
+    height: 10rem;
+    border: 0.5rem solid rgb(131, 91, 18);
+    margin-top: 0.5rem;
+    box-shadow: 0.3rem 0.3rem rgba(131, 91, 18, 0.438);
+    background: rgba(0, 0, 255, 0.295);
+}
+.textoob > p {
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    text-align: justify;
+}
+
+.forcas {
+    width: 60%;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 9rem;
+}
+.forcas > p {
+    font-size: 1.5rem;
+}
+.slifer {
+    width: 30rem;
+    height: 40rem;
+    background: rgb(243, 71, 71);
+    position: relative;
+    overflow: hidden;
+    font-size: 1.5rem;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slifer > figure > img {
+    width: 20rem;
+    margin-top: 3rem;
+    border: 1rem solid grey;
+}
+.titulosl {
+    width: 80%;
+    height: 3rem;
+    border: 0.5rem solid rgba(128, 128, 128, 0.699);
+    font-size: 2.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    box-shadow: 0.3rem 0.3rem rgba(128, 128, 128, 0.438);
+    color: #daa520;
+}
+.estrelinha {
+    display: flex;
+    position: absolute;
+    top: 5.2rem;
+    right: 5rem;
+}
+.slifer > .estrelinha > div {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50rem;
+    background: grey;
+}
+
+.slifer > .estrelinha > div > img {
+    width: 2rem;
+}
+
+.textosl {
+    width: 80%;
+    height: 10rem;
+    border: 0.5rem solid rgb(131, 91, 18);
+    margin-top: 0.5rem;
+    box-shadow: 0.3rem 0.3rem rgba(131, 91, 18, 0.438);
+    background: rgba(255, 166, 0, 0.363);
+}
+.textosl > p {
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    text-align: justify;
+}
+
+.forcasl {
+    width: 60%;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 9rem;
+    margin-top: 2.5rem;
+}
+.forcasl > p {
+    font-size: 1.5rem;
+}
+
+.ra {
+    width: 30rem;
+    height: 40rem;
+    background: rgb(224, 224, 81);
+    position: relative;
+    overflow: hidden;
+    font-size: 1.5rem;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ra > figure > img {
+    width: 20rem;
+    margin-top: 3rem;
+    border: 1rem solid grey;
+}
+.titulora {
+    width: 80%;
+    height: 3rem;
+    border: 0.5rem solid rgba(128, 128, 128, 0.699);
+    font-size: 2.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    box-shadow: 0.3rem 0.3rem rgba(128, 128, 128, 0.438);
+    color: #daa520;
+}
+.bola {
+    display: flex;
+    position: absolute;
+    top: 5.2rem;
+    right: 5rem;
+}
+.ra > .bola > div {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50rem;
+    background: grey;
+}
+
+.ra > .bola > div > img {
+    width: 2rem;
+}
+
+.textora {
+    width: 80%;
+    height: 10rem;
+    border: 0.5rem solid rgb(131, 91, 18);
+    margin-top: 0.5rem;
+    box-shadow: 0.3rem 0.3rem rgba(131, 91, 18, 0.438);
+    background: rgba(255, 166, 0, 0.363);
+}
+.textora > p {
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    text-align: justify;
+}
+
+.forcara {
+    width: 60%;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 10rem;
+    margin-top: 3.8rem;
+}
+.forcara > p {
+    font-size: 1.5rem;
+}
+
+
+.obelisco span:nth-of-type(1) {
+    position: absolute;
+    top: 0;
+    background: linear-gradient(to right, transparent, blue, black);
+    width: 99.8%;
+    height: 1rem;
+    animation: borda1 4s linear infinite;
+}
+
+.obelisco span:nth-of-type(2) {
+    position: absolute;
+    right: 0;
+    background: linear-gradient(to bottom, transparent, black, blue);
+    width: 1rem;
+    height: 99.8%;
+    animation: borda2 4s linear infinite;
+    animation-delay: 2s;
+}
+
+.obelisco span:nth-of-type(3) {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to left, transparent, blue, black);
+    width: 99.8%;
+    height: 1rem;
+    animation: borda3 4s linear infinite;
+}
+
+.obelisco span:nth-of-type(4) {
+    position: absolute;
+    left: 0;
+    background: linear-gradient(to top, transparent, black, blue);
+    width: 1rem;
+    height: 99.8%;
+    animation: borda4 4s linear infinite;
+    animation-delay: 2s;
+}
+
+/* ANIMAÇÃO DAS BORDAS */
+
+@keyframes borda1 {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }    
+}
+
+@keyframes borda2 {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(100%);
+    }    
+}
+
+@keyframes borda3 {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }    
+}
+
+@keyframes borda4 {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }    
+}
+
+.slifer span:nth-of-type(1) {
+    position: absolute;
+    top: 0;
+    background: linear-gradient(to right, transparent, red, black);
+    width: 99.8%;
+    height: 1rem;
+    animation: borda1 4s linear infinite;
+}
+
+.slifer span:nth-of-type(2) {
+    position: absolute;
+    right: 0;
+    background: linear-gradient(to bottom, transparent, black, red);
+    width: 1rem;
+    height: 99.8%;
+    animation: borda2 4s linear infinite;
+    animation-delay: 2s;
+}
+
+.slifer span:nth-of-type(3) {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to left, transparent, red, black);
+    width: 99.8%;
+    height: 1rem;
+    animation: borda3 4s linear infinite;
+}
+
+.slifer span:nth-of-type(4) {
+    position: absolute;
+    left: 0;
+    background: linear-gradient(to top, transparent, black, red);
+    width: 1rem;
+    height: 99.8%;
+    animation: borda4 4s linear infinite;
+    animation-delay: 2s;
+}
+
+/* ANIMAÇÃO DAS BORDAS */
+
+@keyframes borda1 {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }    
+}
+
+@keyframes borda2 {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(100%);
+    }    
+}
+
+@keyframes borda3 {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }    
+}
+
+@keyframes borda4 {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }    
+}
+
+.ra span:nth-of-type(1) {
+    position: absolute;
+    top: 0;
+    background: linear-gradient(to right, transparent, rgb(233, 195, 28), black);
+    width: 99.8%;
+    height: 1rem;
+    animation: borda1 4s linear infinite;
+}
+
+.ra span:nth-of-type(2) {
+    position: absolute;
+    right: 0;
+    background: linear-gradient(to bottom, transparent, black, rgb(233,195,28));
+    width: 1rem;
+    height: 99.8%;
+    animation: borda2 4s linear infinite;
+    animation-delay: 2s;
+}
+
+.ra span:nth-of-type(3) {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to left, transparent, rgb(233,195,28), black);
+    width: 99.8%;
+    height: 1rem;
+    animation: borda3 4s linear infinite;
+}
+
+.ra span:nth-of-type(4) {
+    position: absolute;
+    left: 0;
+    background: linear-gradient(to top, transparent, black, rgb(233,195,28));
+    width: 1rem;
+    height: 99.8%;
+    animation: borda4 4s linear infinite;
+    animation-delay: 2s;
+}
+
+/* ANIMAÇÃO DAS BORDAS */
+
+@keyframes borda1 {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }    
+}
+
+@keyframes borda2 {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(100%);
+    }    
+}
+
+@keyframes borda3 {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }    
+}
+
+@keyframes borda4 {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }    
+}
+
+footer {
+    width: 100vw;
+    height: 30rem;
+    background-color: rgba(255, 255, 255, 0.527);
+}

@@ -1,0 +1,315 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    color: rgb(83, 52, 52);
+}
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+.frase > h1 {
+    font-size: 8rem;
+    margin-left: 10vw;
+    margin-top: 10vh;
+}
+
+body {
+    background: #EBE8E4;
+}
+
+.historia {
+    padding: 3rem 10rem;
+    width: 50vw;
+    height: 40rem;
+}
+
+.historia > h1 {
+    font-size: 5rem;
+}
+
+.historia > p > em {
+    font-size: 2.5rem;
+}
+
+.historia > p {
+    margin-top: 3rem;
+    font-size: 3rem;
+}
+
+.hospedagens {
+    width: auto;
+    height: 80rem;
+    margin: 10rem 0;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.planos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.gold {
+    width: 20vw;
+    height: 60rem;
+    border: 0.2rem solid black;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.gold::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url(imagem\ 3\ 500x400.jpg) no-repeat ;
+    background-size: cover;
+    opacity: 0.2;
+    border-radius: 5%;
+}
+
+.silver {
+    width: 20vw;
+    height: 60rem;
+    border: 0.2rem solid black;
+    border-radius: 5%;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.silver::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url(imagem\ 2\ 500x400.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+    border-radius: 5%;
+}
+.bronze {
+    width: 20vw;
+    height: 60rem;
+    border: 0.2rem solid black;
+    border-radius: 5%;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.bronze::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url(Imagem\ 1\ 500x700.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+    border-radius: 5%;
+}
+.titulo h1 {
+    font-size: 4rem;
+}
+
+.titulo_ouro > h1 {
+    font-size: 3.5rem;
+    margin-top: 2rem;
+}
+
+.gold > ul {
+    display: block;
+}
+
+.gold > ul > li {
+    margin: 3rem;
+    font-size: 3rem;
+}
+
+.preco_ouro {
+    font-size: 10rem;
+}
+
+.titulo_prata > h1 {
+    font-size: 3.5rem;
+    margin-top: 2rem;
+}
+
+.silver ul {
+    display: block;
+}
+
+.silver > ul > li {
+    margin: 3rem;
+    font-size: 3rem;
+}
+
+
+.preco_prata > p {
+    font-size: 6.5rem;
+    position: absolute;
+    bottom: 2.7rem;
+    left: 4rem;
+}
+
+.titulo_bronze {
+    font-size: 5rem;
+}
+
+.bronze > ul > li {
+    margin: 3rem;
+    font-size: 3rem;
+}
+
+.preco_bronze {
+    font-size: 10rem;
+    position: absolute;
+    bottom: 2.7rem;
+    left: 8rem;
+}
+
+article {
+    display: flex;
+    width: 98vw;
+    height: 50rem;
+}
+
+.depoimentos {
+    width: 50vw;
+    height: 60rem;
+    flex-direction: column;
+}
+
+.textos_depo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.titulo_depo > h1 {
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+}
+
+.textos_depo > div {
+    width: 15vw;
+    height: 30rem;
+    font-size: 4rem;
+}
+
+div > p {
+    margin-top: 2rem;
+}
+
+strong {
+    font-size: 3rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+    height: 40rem;
+    position: relative;
+}
+
+form {
+    font-size: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form > p > input {
+    position: absolute;
+    left: 100rem;
+}
+
+.titulo_form {
+    position: absolute;
+    font-size: 5rem;
+    top: -6rem;
+    left: 75rem;
+}
+
+.botao > p > input {
+    font-size: 3rem;
+    position: absolute;
+    left: 90rem;
+}
+
+footer {
+    width: auto;
+    height: 25rem;
+    background:#dabc9579;
+    position: relative;
+}
+
+
+footer > ul > li {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 3.5rem;
+}
+
+footer > ul > li > a {
+    color: black;
+    text-decoration: none;
+}
+
+footer > ul {
+    position: absolute;
+    left: 44%;
+}
+
+footer > p {
+    position: absolute;
+    left: 73rem;
+    bottom: 0;
+    font-size: 2rem;
+}
+
+.redes_sociais > img {
+    width: 4rem;
+    margin-left: 2rem;
+}
+
+.redes_sociais {
+    position: absolute;
+    right: 1rem;
+    bottom: 0;
+}
+
+aside > p {
+    position: absolute;
+    right: 13rem;
+    bottom: 6rem;
+    font-size: 2.2rem;
+}
+
+aside > img {
+    position: absolute;
+    width: 26rem;
+    left: 2rem;
+    bottom: 0;
+}
